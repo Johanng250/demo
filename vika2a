@@ -1,0 +1,17 @@
+# Input value
+n = int(input())
+
+# Initialize the sequence with the first three numbers
+sequence = [1, 2, 3]
+
+# Generate the sequence up to the nth number
+for i in range(3, n):
+    next_number = sequence[-1] + sequence[-2] + (i - 1)
+    sequence.append(next_number)
+
+# Print the sequence
+for num in sequence:
+    print(num)
+
+
+          

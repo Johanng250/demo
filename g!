@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if c == 0:
+    not_c = 1
+else:
+    not_c = 0
+if a == 1 and not_c == 1:
+    ab = 1
+else:
+    ab = 0
+if ab == 1 or b == 1:
+    d = 1
+else:
+    d = 0
+print(d)

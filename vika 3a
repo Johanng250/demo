@@ -1,0 +1,12 @@
+on = True
+max = 0
+
+
+while on == True:
+    num = int(input())
+    if num >= 0:
+        if num > max:
+            max = num
+    else:
+        on = False
+print(max)

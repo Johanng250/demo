@@ -1,0 +1,12 @@
+n = int(input())
+g = int(input())
+t = float(input())
+pg = 0
+
+count = 0
+
+while g - pg > t or (previous - g) > t:
+    pg = g
+    g = (g + n/g)/2
+print(g)
+print(pg)
