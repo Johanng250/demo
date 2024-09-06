@@ -1,1 +1,7 @@
-print(3)
+while True:
+    s = input()
+    if s == "q" or s == "G":
+        break
+    i = int(s)
+    print(i/2)
+
